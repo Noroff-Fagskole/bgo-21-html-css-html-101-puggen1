@@ -2,6 +2,11 @@
 
 
 Link to Netlify: https://angry-shannon-38b5bc.netlify.app
+pictures i have used:
+https://www.pexels.com/nb-no/bilde/bil-kjoretoy-sport-idrett-8766268/
+https://www.pexels.com/nb-no/bilde/bil-kjoretoy-sport-idrett-2799834/
+https://www.pexels.com/nb-no/bilde/bil-kjoretoy-sportsbil-motor-3954450/
+
 ## Goal
 
 You are going to practice tags which you have learned so far.
