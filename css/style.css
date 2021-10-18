@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+main {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+#first {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+article {
+  background-color: rgb(240, 193, 193);
+  padding: 10px;
+}
