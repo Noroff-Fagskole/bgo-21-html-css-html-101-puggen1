@@ -7,24 +7,56 @@
     <meta name="description" content="This is a test site for a school project!">
     <meta name="author" content="Bendik Kvam">
     <title>contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="media/icon/logofeil.png" alt="Our logo">
-        <h1>
-            Contact
-        </h1>
+        <div class="header-text">
+            <h1>
+                Contact
+            </h1>
+        </div>
+        <div class="logo">
+        <a href="index.html">
+            <img class="logo-image" src="media/icon/logofeil.png" alt="Our logo">
+        </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <main>
         <h2>Where to contact me:</h2>
-        <p>Fax me at 12345678</p>
+        <form action="sendform.php">
+            <ul>
+            <li>
+                <label for="firstname">First name:</label>
+                <input type="text" name="firstname" placeholder="John">
+            </li>
+            <li>
+                <label for="lastname">Last name:</label>
+                <input type="text" name="lastname" placeholder="Doe">
+            </li>
+            <li>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" placeholder="example@mail.com">
+            </li>
+            <li>
+               <label for="message">Message:</label>
+                <textarea name="message" id="msg" cols="30" rows="10" placeholder="write message here"></textarea>
+            </li>
+            <li>
+                <button id="sendmsg">Send Message</button>
+            </li>
+        </ul>
+        </form>
     </main>
     <footer>
         <hr>
